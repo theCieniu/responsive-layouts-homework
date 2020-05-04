@@ -12,7 +12,7 @@ body {
   --middle: #824936;
   font-family: 'Roboto Regular', sans-serif;
   color: var(--middle);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 img {
@@ -129,4 +129,29 @@ a:link, a:visited {
 
 a:link:active, a:visited:active {
   color: (internal value);
+}
+
+@media (max-width: 600px) {
+
+.flexrow {
+  display: block;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+.container {
+  width: 100%;
+}
+
+header {
+  padding: 1em 10%;
+  min-height: 500px;
+}
+
+img {
+  margin-top: 2em;
+}
+
 }
